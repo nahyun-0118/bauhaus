@@ -1,0 +1,511 @@
+@font-face {
+    font-family: 'HakgyoansimChulseokbuTTF-L';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChulseokbuTTF-L.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HakgyoansimChulseokbuTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChulseokbuTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+    *{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+    }
+     .top{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        background-position: center;
+    }
+    .box01{
+        background-image: url(img/bg01.png);
+        width: 100%;
+        height: 1145px;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: cover; */
+        }
+
+    .box02{
+        width: 100%;
+        height: 1059px;
+        background-color: white;   
+    }
+    .box03{
+        width: 100%;
+        height: 1229px;
+        background-color: white;   
+    }
+    .box04{
+        width: 100%;
+        height: 1651px;
+        background-color: white;   
+    }
+    .box05{
+        width: 100%;
+        height: 858px;
+        background-color: white;   
+    }
+    .box06{
+        width: 100%;
+        height: 1280px;
+        background-image: url(img/bg02.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .box07{
+        width: 100%;
+        height: 1630px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .box08{
+        width: 100%;
+        height: 330px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .word01, .word03, .word04,.word05,.word06, .word07, .word08, .word09, .word10, .word11 
+    , .word12, .word13, .word14, .word15, .word16, .word17, .word18, .word19, .word20, .sword01
+    , .sword02, .sword03, .sword04, .sword05, .sword06, .sword07, .sword08{
+        font-family: 'HakgyoansimChulseokbuTTF-L';
+        font-weight: 400;
+    }
+    .word001, .word02{
+        font-family: 'HakgyoansimChulseokbuTTF-B';
+        font-weight: 700;
+    }
+    .cont01{
+        width: 880px;
+        height: 740px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .word01{
+        width: 880px;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        font-size: 51px;
+        line-height: 55px;
+    }
+    .word001{
+        width: 880px;
+        height: 120px;
+        position: absolute;
+        top: 50px;
+        font-size: 51px;
+        line-height: 55px;
+    }
+    .ob01{
+        width: 880px;
+        height: 605px;
+        position: absolute;
+        top: 133px;
+    }
+    .cont02{
+        width: 890px;
+        height: 910px;
+        position: relative;
+        left: 50%;
+        top: 60px;
+        transform: translateX(-50%) translateY(0%);
+    }
+    .word02{
+        width: 890px;
+        height: 61px;
+        position: absolute;
+        top: 0;
+        font-size: 51px;
+    }
+    .word03{
+        width: 890px;
+        height: 305px;
+        position: absolute;
+        top: 95px;
+        font-size: 24px;
+        line-height: 35px;
+        text-indent: 10px;
+    }
+    .ob02{
+        width: 890px;
+        height: 370px;
+        position: absolute;
+        top: 430px;
+        transform: translateX(0%) translateY(0%);
+        
+    }
+    .word04{
+        width: 890px;
+        height: 305px;
+        position: absolute;
+        top: 870px;
+        font-size: 24px;
+        line-height: 35px;
+        text-indent: 10px;
+    }
+    .cont03{
+        width: 890px;
+        height: 1200px;
+        position: relative;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%) translateY(0%);
+    }
+    .word06{
+        width: 890px;
+        height: 50px;
+        position: absolute;
+        top: 3px;
+        font-size: 40px;
+        text-indent: 10px;
+    }
+    .rectangle {
+        width: 620px;
+        height: 55px;
+        border: 1.5px solid #b1b1b1;
+        border-radius: 15px;
+    }
+    .word05{
+        width: 890px;
+        height: 850px;
+        position: absolute;
+        top: 290px;
+        font-size: 24px;
+        line-height: 35px;
+        text-indent: 10px;
+    }
+    .cont04{
+        width: 880px;
+        height: 1600px;
+        position: relative;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-47%);
+    }
+    .ob03{
+    /* background-image: url(b/11_헤르베르트바이에르.png); */
+    text-align: left;
+        padding-top: 60px;
+        background-repeat: no-repeat;
+        transform: translateX(80px)
+    }
+    .ob04{
+        text-align: left;
+        padding-top: 340px;
+        background-repeat: no-repeat;
+        transform: translateX(80px)
+    }
+    .sword01{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 465px;
+        left: 70px;
+        font-size: 28px;
+        transform: translateX(-20px)
+    }
+    .sword02{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 560px;
+        left: 70px;
+        font-size: 24px;
+        line-height: 30px;
+        transform: translateX(-20px)
+    }
+    .sword03{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 465px;
+        right: 20px;
+        font-size: 28px;
+        transform: translateX(-20px)
+    }
+    .sword04{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 560px;
+        right: 20px;
+        font-size: 24px;
+        line-height: 30px;
+        transform: translateX(-20px)
+    }
+    .sword05{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 1130px;
+        left: 70px;
+        font-size: 28px;
+        transform: translateX(-20px)
+    }
+    .sword06{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 1230px;
+        left: 70px;
+        font-size: 24px;
+        line-height: 30px;
+        transform: translateX(-20px)
+    }
+    .sword07{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 1130px;
+        right: 20px;
+        font-size: 28px;
+        transform: translateX(-20px)
+    }
+    .sword08{
+        width: 385px;
+        height: 70px;
+        position: absolute;
+        top: 1230px;
+        right: 20px;
+        font-size: 24px;
+        line-height: 30px;
+        transform: translateX(-20px)
+    }
+    .ob05{
+        background-repeat: no-repeat;
+        width: 880px;
+        height: 150px;
+        position: absolute;
+        top: 100px;
+        transform: translateX(270px) translateY(0%);
+    }
+    .word07{
+        width: 890px;
+        height: 50px;
+        position: absolute;
+        top: 5px;
+        font-size: 40px;
+        transform: translateX(-25px);
+        text-indent: 10px;
+    }
+    .rectangle2 {
+        width: 400px;
+        height: 55px;
+        border: 1.5px solid #b1b1b1;
+        border-radius: 15px;
+        transform: translateX(-25px)
+    }
+    .cont05{
+        width: 880px;
+        height: 700px;
+        position: relative;
+        left: 50%;
+        top: -40px;
+        transform: translateX(0%);
+    }
+    .ob06{
+        background-repeat: no-repeat;
+        width: 880px;
+        height: 320px;
+        position: absolute;
+        top: 0px;
+        transform: translateX(-45%) translateY(0%);
+    }
+    .word08{
+        width: 880px;
+        height: 100px;
+        position: absolute;
+        top: 380px;
+        font-size: 24px;
+        line-height: 35px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .word09{
+        width: 880px;
+        height: 100px;
+        position: absolute;
+        top: 540px;
+        font-size: 24px;
+        line-height: 35px;
+        transform: translateX(-45%);
+    }
+    .cont06{
+        width: 880px;
+        height: 1100px;
+        position: relative;
+        left: 50%;
+        top: 70px;
+        transform: translateX(0%);
+    }
+    .word10{
+        width: 880px;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        font-size: 24px;
+        line-height: 35px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .word11{
+        width: 880px;
+        height: 515px;
+        position: absolute;
+        top: 150px;
+        font-size: 24px;
+        line-height: 35px;
+        transform: translateX(-45%);
+    }
+    .word12{
+        width: 880px;
+        height: 190px;
+        position: absolute;
+        bottom: 0%;
+        font-size: 24px;
+        line-height: 35px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .mword01{
+        width: 770px;
+        height: 40px;
+        position: absolute;
+        top: 80px;
+        font-size: 32px;
+        transform: translateX(-53%)
+    }
+    .ob07{
+        background-repeat: no-repeat;
+        width: 880px;
+        height: 190px;
+        position: absolute;
+        top: 560px;
+        transform: translateX(-35%) translateY(0%);
+    }
+    .cont07{
+        width: 880px;
+        height: 1480px;
+        position: relative;
+        left: 50%;
+        top: 75px;
+        transform: translateX(0%);
+    }
+    .word13{
+        width: 880px;
+        height: 60px;
+        position: absolute;
+        top: 0%;
+        font-size: 24px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .mword02{
+        width: 770px;
+        height: 40px;
+        position: absolute;
+        top: 90px;
+        font-size: 32px;
+        transform: translateX(-52%)
+    }
+    .word14{
+        width: 880px;
+        height: 305px;
+        position: absolute;
+        top: 205px;
+        font-size: 24px;
+        transform: translateX(-45%);
+    }
+    .word15{
+        width: 880px;
+        height: 50px;
+        position: absolute;
+        top: 350px;
+        font-size: 40px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .rectangle3 {
+        width: 713px;
+        height: 55px;
+        border: 1.5px solid #b1b1b1;
+        border-radius: 15px;
+        transform: translateY(-90%)
+    }
+    .word16{
+        width: 880px;
+        height: 220px;
+        position: absolute;
+        top: 446px;
+        font-size: 24px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .word17{
+        width: 880px;
+        height: 180px;
+        position: absolute;
+        bottom: 0%;
+        font-size: 24px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .ob08{
+        background-repeat: no-repeat;
+        width: 880px;
+        height: 633px;
+        position: absolute;
+        top: 670px;
+        transform: translateX(-45%) translateY(0%);
+    }
+    .cont08{
+        width: 845px;
+        height: 170px;
+        position: relative;
+        left: 50%;
+        top: 75px;
+        transform: translateX(0%);
+    }
+    .word18{
+        width: 845px;
+        height: 30px;
+        position: absolute;
+        top: -10px;
+        font-size: 23px;
+        transform: translateX(-45%)
+    }
+    .word19{
+        width: 845px;
+        height: 75px;
+        position: absolute;
+        top: 40px;
+        font-size: 17px;
+        transform: translateX(-45%);
+        text-indent: 10px;
+    }
+    .word20{
+        width: 845px;
+        height: 27px;
+        position: absolute;
+        text-align: right;
+        bottom: 0px;
+        font-size: 22px;
+        transform: translateX(-45%)
+    }
+    .bottom{
+        width: 100%;
+        height: 10px;
+        bottom: 0px;
+        background-color: black;
+        background-position: center;
+    }
